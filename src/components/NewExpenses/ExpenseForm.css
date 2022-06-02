@@ -1,0 +1,21 @@
+.new-expense__controls {
+  display: flex;
+  margin-bottom: 1rem;
+
+  text-align: left;
+  flex-wrap: wrap;
+}
+.new-expense__control {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.new-expense__control input {
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+.new-expense__actions {
+  text-align: right;
+}
